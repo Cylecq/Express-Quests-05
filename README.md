@@ -3,7 +3,7 @@
 ### Initialisation
 
 1. Clone the repo
-2. `cd Express-Quests-04`
+2. `cd Express-Quests-05`
 3. `npm i`
 4. `cp .env.sample .env`
 5. `npm run dev`
@@ -17,7 +17,7 @@ _In Postman_
 1. Do a GET request `localhost:5005/api/users/`
 2. Copy a user
 3. Paste it in the body of your request
-4. Delete the id line and modify the user
+4. Delete the id line and modify the user (at least the email)
 5. Do a POST request `localhost:5005/api/users/`
 6. Do a GET request `localhost:5005/api/users/` and keep the ID in mind
 7. Do a DELETE request `localhost:5005/api/users/*id of the new user*`
